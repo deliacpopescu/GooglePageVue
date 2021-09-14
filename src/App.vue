@@ -1,23 +1,22 @@
 <template>
-  <!-- <h3>mesaj din app</h3> -->
   <Header></Header>
   <Main></Main>
   <Footer></Footer>
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Main from './components/Main.vue'
-import Footer from './components/Footer.vue'
+import Header from "./components/Header.vue";
+import Main from "./components/Main.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Header,
     Main,
-    Footer
-  }
-}
+    Footer,
+  },
+};
 </script>
 
 <style>
@@ -30,7 +29,6 @@ export default {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  height:100%;
-  
+  height: 100%;
 }
 </style>

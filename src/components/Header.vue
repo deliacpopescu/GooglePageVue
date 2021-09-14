@@ -12,7 +12,6 @@
           <img alt="menu button" src="./../assets/dots-menu.svg" />
         </button>
       </div>
-
       <div class="links">
         <button id="email-btn">D</button>
       </div>
@@ -22,7 +21,7 @@
 
 <script>
 export default {
-  main: "Header",
+  main: "Header"
 };
 </script>
 
@@ -51,13 +50,14 @@ a:hover {
 #menu-btn {
   border: none;
   background-color: transparent;
+  width: 32px;
+  height: 32px;
 }
 #menu-btn:hover {
   cursor: pointer;
-  border: none;
-  box-shadow: 0px 1px 1px rgba(194, 192, 192, 0.15);
+  background-color: #dadce0;
+  border-radius: 50%;
 }
-
 #email-btn {
   height: 32px;
   width: 32px;
